@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+ <title>The Meetrix</title>
+ </head>
+
+<body>
+
+<div data-role="page" id="page1">
+<div data-role="header">
+    <h1>Upcoming Meetings</h1>
+	<a data-role="button" href="chooserole.html">Logout</a>
+  </div>
+    <div data-role="content">
+        <div style="">
+        <form>
+        Location:<input type="text" name="location" id="location"><br>
+        Invite Members:
+        <select>
+  			<option>Name1</option>
+  			<option>Name2</option>
+  			<option>Name3</option>
+		</select>
+        Agendas Items:<textarea name="agendas" id = "agendas" cols="40" rows="20"></textarea>
+        </form>
+        <a href="upcomingMeeting.html"><button>Cancel</button></a>
+        <a href="upcomingMeeting.html"><button>Submit</button></a>
+    	</div>
+    </div>
+    <div data-role="footer">
+     <div id="footer">
+    <a href="index.html"><img src = "images/homeicon.png" alt = "logo" ></a>
+    <a href="createmeetings.html"><img src = "images/meetingicon.png" alt = "logo" ></a>
+    <a href="voting.html"><img src = "images/votingicon.png" alt = "logo" ></a>
+    <a href="user_profile.html"><img src = "images/profileicon.png" alt = "logo" ></a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
